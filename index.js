@@ -15,5 +15,5 @@ function deleteFromObjectByKey(object,key){
   return newObject.prop= 1
   }
   function dustructivelyDeleteFromObjectByKey(object,key){
-    
+    delete object[key]
   }
